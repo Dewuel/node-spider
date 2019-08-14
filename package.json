@@ -1,0 +1,23 @@
+{
+  "name": "node-spider",
+  "version": "1.0.0",
+  "description": "a node spider",
+  "repository": {
+    "github": "",
+    "gitee": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "pm": "pm2 app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "superagent": "^5.1.0"
+  }
+}
